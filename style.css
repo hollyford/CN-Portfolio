@@ -45,3 +45,20 @@ footer img {
     width: 20px;
     height: 20px;
 }
+
+th, td {
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.table-head-colour {
+    background-color:rgb(151, 143, 175);
+}
+
+.table-colour1 {
+    background-color:lavenderblush;
+}
+
+.table-colour1:hover {
+    background-color: lavender;
+}
