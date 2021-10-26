@@ -8,20 +8,40 @@ body {
 .main-img {
     width: 250px;
     height: 250px;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 
 h1 {
     text-align: center;
 }
 
-footer img {
-    width: 20px;
-    height: 20px;
+.why-h3 {
+    text-align: center;
 }
+
+.why-width {
+    max-width: 500px;
+}
+
 
 .img-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.fav-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.h3-padding {
+    padding-left: 20px;
+}
+
+
+footer img {
+    width: 20px;
+    height: 20px;
 }
