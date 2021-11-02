@@ -92,7 +92,15 @@ input:focus {
 
 button {
     margin-top: 10px;
+    border-radius:5px;
+    border: solid 1px grey;
+    background-color:rgb(151, 143, 175);
 }
+
+button:hover {
+    background-color: #9695fc;
+    cursor:pointer;
+  }
 
 footer {
     width: 100%;
