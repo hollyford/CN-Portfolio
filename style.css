@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
-    background-color: cornsilk;
+    background: linear-gradient(135deg, #fc0fc0, #4743ef);
     font-family: 'Inter', sans-serif;
 }
 
@@ -69,13 +69,30 @@ th, td {
     margin: 10px;
 }
 
+form > h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+form > div > input {
+    margin: 2px;
+    border: solid 1px lightgray;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:5px;
+}
+
+form > div > label {
+    margin: 2px;
+    
+}
+
 input:focus {
     background-color:lavender;
   }
 
-/* label input {
-    padding: 5px;
-} */
+button {
+    margin-top: 10px;
+}
 
 footer {
     width: 100%;
